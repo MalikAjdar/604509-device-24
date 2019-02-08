@@ -20,7 +20,7 @@
       </div>
 
       <ul class="nav-1">
-        <li class="login-link"><img src="img/user-black.svg" width="13" height="12">Войти</li>
+        <li><a class="login-link" href="#"><img src="img/user-black.svg" width="13" height="12">Войти</a></li>
         <li><a href="compaer.html"><img src="img/compare-black.svg" widht="10" height="10">Сравнить</a></li>
         <li><a href="basket.html"><img src="img/cart.svg" width="12" height="12">Корзина</a></li>
       </ul>
@@ -45,13 +45,19 @@
         <p>Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями:</p>
         <ul class="about-list">
           <li class="about-item">
-            <h3>Деловые Линии</h3>
+            <a href="dline.html">
+              <h3>Деловые Линии</h3>
+            </a>
           </li>
           <li class="about-item">
-            <h3>Автотрейдинг</h3>
+            <a href="autot.html">
+              <h3>Автотрейдинг</h3>
+            </a>
           </li>
           <li class="about-item">
-            <h3>ЖелДорЭкспедиция</h3>
+            <a href="zde.html">
+              <h3>ЖелДорЭкспедиция</h3>
+            </a>
           </li>
         </ul>
 
@@ -59,11 +65,10 @@
       </div>
 
       <div class="contact">
-
         <img src="img/kontakt.svg" width="80" height="7">
-
-        <h2>Контакты</h2>
-
+        <a class="button" href="contacts.html">
+          <h2>Контакты</h2>
+        </a>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
           проверить работоспособность покупки. Всякое бывает.</p>
 
@@ -103,7 +108,7 @@
 
         <div class="footer-menu"></div>
         <ul class="footer-user">
-          <li class="login-link"><img src="img/user-yellow.svg" width="13" height="12">Войти</li>
+          <li><a class="login-link" href="#"><img src="img/user-yellow.svg" width="13" height="12">Войти</a></li>
           <li><a href="compaer.html"><img src="img/compare.svg" width="10" height="10">Сравнить</a></li>
           <li><a href="basket.html"><img src="img/cart-yellow.svg" width="12" height="12">Корзина</a></li>
         </ul>
@@ -116,10 +121,21 @@
 
 
       <section class="modal modal-login">
-        <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль.</p>
-        <!-- Здесь будет форма -->
-        <span class="modal-close">x</span>
+        <form class="user" method="post" action="">
+          <p class="appointment-item">
+            <label for="appointment-name">Ваше имя:</label>
+            <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-email">Ваш e-mail:</label>
+            <input id="appointment-email" type="text" name="email" value="" placeholder="email@example.com">
+          </p>
+          <p class="appointment-item">
+            <label for="appointment-mail">Текст письма:</label>
+            <input id="appointment-mail" type="text" name="mail" value="" placeholder="в свободной форме">
+          </p>
+
+        </form>
       </section>
 </body>
 
