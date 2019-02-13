@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -14,22 +16,24 @@
     </a>
 
     <nav class="navigation">
-      <div>
-        <img src="img/search.svg" width="16" height="16">
-        <input type="text" class="search" name="search">
-      </div>
+      <form class="search" method="post" action="">
+        <p class="appointment-item">
+          <label for="appointment-search"><img src="img/search.svg" width="16" height="16"></label>
+          <input id="appointment-search" type="text" name="search" value="" placeholder="Поиск по сайту">
+        </p>
+      </form>
 
       <ul class="nav-1">
         <li><a class="login-link" href="#"><img src="img/user-black.svg" width="13" height="12">Войти</a></li>
-        <li><a href="compaer.html"><img src="img/compare-black.svg" widht="10" height="10">Сравнить</a></li>
-        <li><a href="basket.html"><img src="img/cart.svg" width="12" height="12">Корзина</a></li>
+        <li><a class="compaer" href="compaer.html"><img src="img/compare-black.svg" widht="10" height="10">Сравнить</a></li>
+        <li><a class="basket" href="basket.html"><img src="img/cart.svg" width="12" height="12">Корзина</a></li>
       </ul>
 
       <ul class="nav-2">
-        <li><a href="catalog.html">Каталог Товаров</a></li>
-        <li><a href="delivery.html">Доставка</a></li>
-        <li><a href="warrantiy.html">Гарантия</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
+        <button class="button">Каталог Товаров</button>
+        <li><a class="delivery" href="delivery.html">Доставка</a></li>
+        <li><a class="warranty" href="warrantiy.html">Гарантия</a></li>
+        <li><a class="contacts" href="contacts.html">Контакты</a></li>
       </ul>
     </nav>
   </header>
@@ -41,34 +45,24 @@
         <img src="img/onasb.svg" width="80" height="7">
 
         <h2>О нас</h2>
-        <p>Огромный выбор гаджетов не оставит равнодушнем гика, который есть в каждом из нас.</p>
-        <p>Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями:</p>
-        <ul class="about-list">
-          <li class="about-item">
-            <a href="dline.html">
-              <h3>Деловые Линии</h3>
-            </a>
-          </li>
-          <li class="about-item">
-            <a href="autot.html">
-              <h3>Автотрейдинг</h3>
-            </a>
-          </li>
-          <li class="about-item">
-            <a href="zde.html">
-              <h3>ЖелДорЭкспедиция</h3>
-            </a>
-          </li>
-        </ul>
+        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+          Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями:</p>
 
-        <a class="button" href="infa.html">подробнее о нас<img src="img/o-nas.svg" width="260" height="8"></a>
+        <h3>Деловые Линии</h3>
+
+        <h3>Автотрейдинг</h3>
+
+        <h3>ЖелДорЭкспедиция</h3>
+
+
+        <b>подробнее о нас<img src="img/o-nas.svg" width="260" height="8"></b>
       </div>
 
-      <div class="contact">
+      <div class="about">
         <img src="img/kontakt.svg" width="80" height="7">
-        <a class="button" href="contacts.html">
-          <h2>Контакты</h2>
-        </a>
+
+        <h2>Контакты</h2>
+
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
           проверить работоспособность покупки. Всякое бывает.</p>
 
@@ -76,7 +70,7 @@
           <a href="#"><img src="img/map.png" width="560" height="222" alt="карта"></a>
         </figure>
 
-        <a class="button" href="contacts.html">напишите нам<img src="img/nam.svg" width="260" height="8"></a>
+        <b>напишите нам<img src="img/nam.svg" width="260" height="8"></b>
       </div>
 
       <footer class="main-footer">

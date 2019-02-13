@@ -1,4 +1,184 @@
+body {
+  margin: 0;
+
+  font-family: "Open Sans", sans-serif;
+  font-size: 8px;
+  font-weight: 100;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #000000;
+
+  background-color: #ffffff;
+
+}
+
+a {
+  text-decoration: none;
+
+}
+
+.main-header {
+  background-color: #F0C52E;
+}
+
+.nav-1,
+.nav-2 {
+  list-style: none;
+}
+
+.nav-1 a,
+.nav-2 a {
+  color: #000000;
+}
+
+.nav-1 a:hover,
+.nav-1 a:focus,
+.nav-2 a:hover,
+.nav-2 a:focus {
+  background: #ffffff;
+  color: #000000;
+}
+
+.nav-1 {
+  font-size: 8px;
+  font-weight: bold;
+}
+opacity: 0.6;
+font-family: Helvetica;
+font-size: 15px;
+color: #000000;
+letter-spacing: 0.15px;
+line-height: 30px;
+.nav-2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.container h2 {
+  font-size: 30px;
+  font-weight: 50px;
+  }
+
+.container h3 {
+  font-size: 8px;
+  font-weight: bold;
+}
+
+
 .main-footer {
   background: #464646;
   color: #ffffff;
+}
+
+.footer-navigation,
+.footer-user {
+  list-style: none;
+}
+
+.footer-navigation a,
+.footer-user a {
+  color: #ffffff;
+}
+
+.footer-navigation a:hover,
+.footer-navigation a:focus,
+.footer-user a:hover,
+.footer-user a:focus {
+  background: #807C7C;
+  color: #ffffff;
+}
+
+.footer-navigation {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+.inner-page {
+  color: #000000;
+  }
+
+.navigation a {
+  color: #000000;
+}
+
+.navigation a:hover,
+.navigation a:focus {
+  text-decoration: none;
+}
+
+.navigation ul {
+  list-style: none;
+}
+.breadcrumbs {
+  list-style: none;
+}
+
+.breadcrumbs a {
+  color: #000000;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs a:focus {
+  text-decoration: none;
+}
+
+.breadcrumbs-current {
+  color: #aba9a7;
+}
+
+.filter {
+font-size: 8px;
+color: #000000;
+line-height: 30px;
+}
+.filter fieldset {
+  border: none;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter-input:hover + label,
+.filter-input:focus + label {
+  color: #000000;
+  opacity: 0,5;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-item {
+  font-size: 8px;
+  background: rgba(0,0,0,0.00);
+}
+
+.catalog-item span {
+color: #464646;
+letter-spacing: 0.16px;
+text-align: right;
+line-height: 24px;
+}
+
+.catalog-item b {
+color: #000000;
+letter-spacing: 0.18px;
+line-height: 24px;
+}
+
+.button {
+  font: inherit;
+  color: #000000;
+  vertical-align: middle;
+  text-transform: uppercase;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+  opacity: 0.08;
+background: rgba(0,0,0,0.00);
 }
