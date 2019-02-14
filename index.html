@@ -11,126 +11,127 @@
 
 <body>
   <header class="main-header">
-    <a class="main-header-logo" href="index.html">
+    <span class="main-header-logo">
       <img src="img/logo-device-black.svg" width="164" height="36" alt="logo device">
-    </a>
+    </span>
 
     <nav class="navigation">
-      <form class="search" method="post" action="">
+      <form class="search" method="post" action="search">
         <p class="appointment-item">
-          <label for="appointment-search"><img src="img/search.svg" width="16" height="16"></label>
+          <label for="appointment-search"><img src="img/search.svg" width="16" height="16" alt="search"></label>
           <input id="appointment-search" type="text" name="search" value="" placeholder="Поиск по сайту">
         </p>
       </form>
 
-      <ul class="nav-1">
-        <li><a class="login-link" href="#"><img src="img/user-black.svg" width="13" height="12">Войти</a></li>
-        <li><a class="compaer" href="compaer.html"><img src="img/compare-black.svg" widht="10" height="10">Сравнить</a></li>
-        <li><a class="basket" href="basket.html"><img src="img/cart.svg" width="12" height="12">Корзина</a></li>
-      </ul>
+      <div class="navigation1">
+        <img src="img/user-black.svg" alt="login" width="13" height="12"><a class="login-link" href="#">Войти</a>
+        <img src="img/compare-black.svg" alt="compaer" width="10" height="10"><a class="compaer" href="compaer.html">Сравнить</a>
+        <img src="img/cart.svg" alt="cart" width="12" height="12"><a class="basket" href="cart.html">Корзина</a>
+      </div>
 
-      <ul class="nav-2">
-        <button class="button">Каталог Товаров</button>
-        <li><a class="delivery" href="delivery.html">Доставка</a></li>
-        <li><a class="warranty" href="warrantiy.html">Гарантия</a></li>
-        <li><a class="contacts" href="contacts.html">Контакты</a></li>
-      </ul>
+      <div class="navigation2">
+        <a class="catalog" href="catalog.html">Каталог Товаров</a>
+        <a class="delivery" href="delivery.html">Доставка</a>
+        <a class="warranty" href="warrantiy.html">Гарантия</a>
+        <a class="contacts" href="contacts.html">Контакты</a>
+      </div>
+
+      <div class="navigation3">
+        <a class="item" href="#">Виртуальная реальность</a>
+        <a class="item item-current" href="#">Моноподы для селфи</a>
+        <a class="item" href="#">Экшн-камеры</a>
+        <a class="item" href="#">Фитнес-браслеты</a>
+        <a class="item" href="#">Умные-часы</a>
+        <a class="item" href="#">Квадрокоптеры</a>
+      </div>
     </nav>
   </header>
 
-  < -- тут будет форма -->
-
-    <section class="container">
-      <div class="about">
-        <img src="img/onasb.svg" width="80" height="7">
-
-        <h2>О нас</h2>
-        <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
-          Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями:</p>
-
-        <h3>Деловые Линии</h3>
-
-        <h3>Автотрейдинг</h3>
-
-        <h3>ЖелДорЭкспедиция</h3>
 
 
-        <b>подробнее о нас<img src="img/o-nas.svg" width="260" height="8"></b>
-      </div>
+  <section class="container">
+    <div class="about">
+      <h2>О нас</h2>
+      <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        Мы можем доставить ваш товар в самые отдаленные точки России! Device работает со многими транспортными компаниями:</p>
 
-      <div class="about">
-        <img src="img/kontakt.svg" width="80" height="7">
+      <h3>Деловые Линии</h3>
 
-        <h2>Контакты</h2>
+      <h3>Автотрейдинг</h3>
 
-        <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
-          проверить работоспособность покупки. Всякое бывает.</p>
-
-        <figure class="maps">
-          <a href="#"><img src="img/map.png" width="560" height="222" alt="карта"></a>
-        </figure>
-
-        <b>напишите нам<img src="img/nam.svg" width="260" height="8"></b>
-      </div>
-
-      <footer class="main-footer">
-
-        <div class="footer-company">
-          <a class="footer-logo" href="logo"><img src="img/logo-yellow.svg" width="193" height="65"></a>
-
-          <p>г. Москва, ул. Строителей 15</p>
-          <img src="img/layer6.svg" width="80" height="7">
-        </div>
-
-        <div class="footer-nav">
-          <ul class="footer-navigation">
-            <li><a href="delivery.html">Доставка</a></li>
-            <li><a href="warrantiy.html">Гарантия</a></li>
-            <li><a href="contacts.html">Контакты</a></li>
-          </ul>
+      <h3>ЖелДорЭкспедиция</h3>
 
 
-          <div class="footer-social">
-            <ul>
-              <li><a class="social-button" href="#"><img src="img/fb.svg" width="32" height="32"></a></li>
-              <li><a class="social-button" href="#"><img src="img/instagram.svg" width="32" height="32"></a></li>
-              <li><a class="social-button" href="#"><img src="img/twitter.svg" width="32" height="32"></a></li>
-            </ul>
-          </div>
-        </div>
+      <b>подробнее о нас</b>
+    </div>
+
+    <div class="about">
+      <h2>Контакты</h2>
+
+      <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
+        проверить работоспособность покупки. Всякое бывает.</p>
+
+      <figure class="maps">
+        <a href="#"><img src="img/map.png" alt="maps" width="560" height="222"></a>
+      </figure>
+
+      <b>напишите нам</b>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+
+    <div class="footer-company">
+      <span class="footer-logo"><img src="img/logo-yellow.svg" alt="logo" width="193" height="65"></span>
+      <p>г. Москва, ул. Строителей 15</p>
+    </div>
+
+    <div class="footer-navigation">
+
+      <a href="delivery.html">Доставка</a>
+      <a href="warrantiy.html">Гарантия</a>
+      <a href="contacts.html">Контакты</a>
+    </div>
 
 
-        <div class="footer-menu"></div>
-        <ul class="footer-user">
-          <li><a class="login-link" href="#"><img src="img/user-yellow.svg" width="13" height="12">Войти</a></li>
-          <li><a href="compaer.html"><img src="img/compare.svg" width="10" height="10">Сравнить</a></li>
-          <li><a href="basket.html"><img src="img/cart-yellow.svg" width="12" height="12">Корзина</a></li>
-        </ul>
+    <ul class="footer-social">
 
-        <p>Тел.: +7(495)495-95-95</p>
-        </div>
-
-        <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" width="27" height="35"></a>
-      </footer>
+      <li><img src="img/fb.svg" alt="fb" width="32" height="32"></li>
+      <li><img src="img/instagram.svg" alt="instagram" width="32" height="32"></li>
+      <li><img src="img/twitter.svg" alt="twitter" width="32" height="32"></li>
+    </ul>
 
 
-      <section class="modal modal-login">
-        <form class="user" method="post" action="">
-          <p class="appointment-item">
-            <label for="appointment-name">Ваше имя:</label>
-            <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
-          </p>
-          <p class="appointment-item">
-            <label for="appointment-email">Ваш e-mail:</label>
-            <input id="appointment-email" type="text" name="email" value="" placeholder="email@example.com">
-          </p>
-          <p class="appointment-item">
-            <label for="appointment-mail">Текст письма:</label>
-            <input id="appointment-mail" type="text" name="mail" value="" placeholder="в свободной форме">
-          </p>
 
-        </form>
-      </section>
+    <div class="footer-navigation1">
+
+      <img src="img/user-yellow.svg" alt="login" width="13" height="12"><a class="login-link" href="#">Войти</a>
+      <img src="img/compare.svg" alt="compaer" width="10" height="10"><a href="compaer.html">Сравнить</a>
+      <img src="img/cart-yellow.svg" alt="cart" width="12" height="12"><a href="cart.html">Корзина</a>
+    </div>
+
+    <p>Тел.: +7(495)495-95-95</p>
+    <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss"><img src="img/logo-html.svg" alt="htmllogo" width="27" height="35"></a>
+  </footer>
+
+
+  <section class="modal modal-login">
+    <form class="user" method="post" action="user">
+      <h3 class="appointment-item">
+        <label for="appointment-name">Ваше имя:</label>
+        <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+      </h3>
+      <h3 class="appointment-item">
+        <label for="appointment-email">Ваш e-mail:</label>
+        <input id="appointment-email" type="text" name="email" value="" placeholder="email@example.com">
+      </h3>
+      <h3 class="appointment-item">
+        <label for="appointment-mail">Текст письма:</label>
+        <input id="appointment-mail" type="text" name="mail" value="" placeholder="в свободной форме">
+      </h3>
+    </form>
+  </section>
+
 </body>
 
 </html>
