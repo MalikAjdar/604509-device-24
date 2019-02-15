@@ -4,7 +4,6 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Девайс</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link href="css/normalize.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
@@ -16,7 +15,7 @@
     </span>
 
     <nav class="navigation">
-      <form class="search" method="post" action="search">
+      <form class="search-form" method="post" action="search">
         <p class="appointment-item">
           <label for="appointment-search"><img src="img/search.svg" width="16" height="16" alt="search"></label>
           <input id="appointment-search" type="text" name="search" value="" placeholder="Поиск по сайту">
@@ -37,12 +36,12 @@
       </div>
 
       <div class="navigation3">
-        <a class="item" href="#">Виртуальная реальность</a>
-        <a class="item item-current" href="#">Моноподы для селфи</a>
-        <a class="item" href="#">Экшн-камеры</a>
-        <a class="item" href="#">Фитнес-браслеты</a>
-        <a class="item" href="#">Умные-часы</a>
-        <a class="item" href="#">Квадрокоптеры</a>
+        <a class="item" href="inner.html">Виртуальная реальность</a>
+        <a class="item item-current" href="inner.html">Моноподы для селфи</a>
+        <a class="item" href="inner.html">Экшн-камеры</a>
+        <a class="item" href="inner.html">Фитнес-браслеты</a>
+        <a class="item" href="inner.html">Умные-часы</a>
+        <a class="item" href="inner.html">Квадрокоптеры</a>
       </div>
     </nav>
   </header>
@@ -105,7 +104,7 @@
 
     <div class="footer-navigation1">
 
-      <img src="img/user-yellow.svg" alt="login" width="13" height="12"><a class="login-link" href="#">Войти</a>
+      <img src="img/user-yellow.svg" alt="login" width="13" height="12"><a href="login-link">Войти</a>
       <img src="img/compare.svg" alt="compaer" width="10" height="10"><a href="compaer.html">Сравнить</a>
       <img src="img/cart-yellow.svg" alt="cart" width="12" height="12"><a href="cart.html">Корзина</a>
     </div>
@@ -116,7 +115,7 @@
 
 
   <section class="modal modal-login">
-    <form class="user" method="post" action="user">
+    <form class="user-form" method="post" action="user">
       <h3 class="appointment-item">
         <label for="appointment-name">Ваше имя:</label>
         <input id="appointment-name" type="text" name="name" value="" placeholder="Имя Фамилия">
