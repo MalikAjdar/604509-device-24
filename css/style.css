@@ -1,11 +1,7 @@
 body {
   margin: 0;
 
-  font-family: "OpenSans",
-               "GilroyExtraBold",
-               "OpenSanslight",
-               "Gilroylight"
-                sans-serif ;
+  font-family: "Gilroy", "OpenSans", sans-serif;
   font-size: 15px;
   font-weight: 100;
   line-height: 30px;
@@ -17,34 +13,34 @@ body {
 }
 
 @font-face {
-    font-family: "GilroyExtraBold";
-        src: url("web/gilroyextrabold.woff") format("woff"),
-         url("web/gilroyextrabold.woff2") format("woff2");
-    font-weight: normal;
+    font-family: "Gilroy";
+        src: url("web/gilroyextrabold.woff2") format("woff2"),
+        url("web/gilroyextrabold.woff") format("woff");
+    font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "Gilroylight";
-        src: url("web/gilroylight.woff") format("woff"),
-         url("web/gilroylight.woff2") format("woff2");
+    font-family: "Gilroy";
+        src: url("web/gilroylight.woff2") format("woff2"),
+             url("web/gilroylight.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: "OpenSans";
-    src: url("web/opensans.woff") format("woff"),
-         url("web/opensans.woff2") format("woff2");
+    src: url("web/opensans.woff2") format("woff2"),
+    url("web/opensans.woff") format("woff");
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-    font-family: "OpenSanslight";
-    src: url("web/opensanslight.woff") format("woff"),
-         url("web/opensanslight.woff2") format("woff2");
-    font-weight: normal;
+    font-family: "OpenSans";
+    src: url("web/opensanslight.woff2") format("woff2"),
+        url("web/opensanslight.woff") format("woff");
+    font-weight: lighter;
     font-style: normal;
 }
 
@@ -53,6 +49,17 @@ a {
   text-decoration: none;
 
 }
+
+.appointment-item input {
+  opacity: 0.3;
+font-family: "OpenSans",sans-serif;
+font-size: 15px;
+color: #000000;
+letter-spacing: 0.15px;
+line-height: 30px;
+}
+
+
 
 .main-header {
   background-color: #f7e296;
@@ -71,7 +78,7 @@ a {
 }
 
 .navigation1 a {
-  font-family: "OpenSans";
+  font-family: "OpenSans",sans-serif;
   font-size: 15px;
   color: #000000;
   letter-spacing: 0.15px;
@@ -79,7 +86,7 @@ a {
 }
 
 .navigation2 a {
-  font-family: "GilroyExtraBold";
+  font-family: "Gilroy";
   font-size: 18px;
   font-weight: bold;
 
@@ -89,7 +96,7 @@ a {
 }
 
 .navigation3 a {
-font-family: "OpenSans";
+font-family: "OpenSans",sans-serif;
 font-size: 15px;
 color: #000000;
 letter-spacing: 0.15px;
@@ -98,27 +105,46 @@ line-height: 36px;
 
 
 
+.container {
+  font-family: "OpenSans",sans-serif;
+  font-size: 15px;
+  color: #464646;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
 .container h2 {
-  font-size: 47px;
-  font-weight: bold;
-  }
+  font-family: "Gilroy";
+font-size: 47px;
+color: #000000;
+letter-spacing: 0.21px;
+line-height: 48px;
+}
 
 .container h3 {
-  font-size: 16px;
-  font-weight: bold;
+  font-family: "Gilroy";
+font-size: 16px;
+color: #000000;
+letter-spacing: 0;
+line-height: 40px;
 }
 
-.container p {
+.container b {
+  font-family: "Gilroy";
+font-size: 18px;
+color: #000000;
+letter-spacing: 3.5px;
+line-height: 24px;
+}
+
+.main-footer  {
+  font-family: "OpenSans",sans-serif;
 font-size: 15px;
-color: #464646;
 letter-spacing: 0;
 line-height: 30px;
-}
 
-
-.main-footer {
-  background: #464646;
-  color: #ffffff;
+background: #464646;
+color: #ffffff;
 }
 
 .footer-navigation,
@@ -131,25 +157,25 @@ line-height: 30px;
   color: #ffffff;
 }
 
-.footer-navigation {
-  font-size: 18px;
-  font-weight: bold;
-}
+
 
 .footer-social {
   list-style: none;
   opacity: 0.7;
 }
 
-.footer-navigation1 {
-  font-family: "OpenSanslight";
-  opacity: 0.7;
+.footer-navigation {
+  font-family: "Gilroy";
+font-size: 18px;
+letter-spacing: 3.6px;
+line-height: 24px;
+}
 
-font-size: 15px;
+.footer-navigation1 {
+  opacity: 0.7;
 letter-spacing: 0.15px;
 line-height: 36px;
 }
-
 
 .inner-page {
   color: #000000;
@@ -180,10 +206,21 @@ line-height: 36px;
 }
 
 .filter {
-font-size: 8px;
-color: #000000;
-line-height: 30px;
+  font-family: "OpenSans",sans-serif;
+  font-size: 14px;
+  color: #000000;
+  letter-spacing: 0.14px;
+  line-height: 39px;
 }
+
+.filter legend {
+  font-family: "Gilroy";
+font-size: 18px;
+color: #000000;
+letter-spacing: 0.18px;
+line-height: 24px;
+}
+
 .filter fieldset {
   border: none;
 }
@@ -196,27 +233,31 @@ line-height: 30px;
 }
 
 .catalog-item {
-  font-size: 8px;
-  background: rgba(0,0,0,0.00);
-}
-
-.catalog-item span {
-color: #464646;
-letter-spacing: 0.16px;
-text-align: right;
-line-height: 24px;
-}
-
-.catalog-item b {
+  font-family: "Gilroy";
+font-size: 18px;
 color: #000000;
 letter-spacing: 0.18px;
 line-height: 24px;
+
+background: rgba(0,0,0,0.00);
+}
+
+.catalog-item span {
+  font-family: "Gilroy";
+  font-size: 16px;
+  color: #464646;
+  letter-spacing: 0.16px;
+  text-align: right;
+  line-height: 24px;
 }
 
 .button {
-  font: inherit;
-  color: #000000;
-  vertical-align: middle;
-  text-transform: uppercase;
-  border: none;
+font-family: "Gilroy";
+font-size: 16px;
+color: #000000;
+letter-spacing: 3.5px;
+line-height: 24px;
+vertical-align: middle;
+text-transform: uppercase;
+border: none;
 }
