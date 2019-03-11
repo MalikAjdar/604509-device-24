@@ -16,27 +16,26 @@
     <nav class="head">
       <section class="header-main">
         <form class="search-form" method="post" action="search">
-          <div class="search-form">
-            <label for="appointment-search" class="search"></label>
-            <input id="appointment-search" type="text" name="search" value="" placeholder="Поиск по сайту">
+          <label for="appointment-search" class="search"></label>
+          <input id="appointment-search" type="text" name="search" value="" placeholder="Поиск по сайту">
           </div>
         </form>
 
-        <ul class="header-user">
-          <li><a class="user header-login" href="#">Войти</a></li>
-          <li><a class="user header-compare" href="compare.html">Сравнить</a></li>
-          <li><a class="user header-cart" href="cart.html">Корзина</a></li>
-        </ul>
+        <div class="header-user">
+          <a class="user header-login" href="#">Войти</a>
+          <a class="user header-compare" href="compare.html">Сравнить</a>
+          <a class="user header-cart" href="cart.html">Корзина</a>
+        </div>
 
         <ul class="header-info">
           <li><a class="link catalog" href="catalog.html">Каталог Товаров</a></li>
           <li><a class="link header-delivery" href="delivery.html">Доставка</a></li>
-          <li><a class="link header-warrantiy" href="warrantiy.html">Гарантия</a></li>
+          <li><a class="link header-warranty" href="warranty.html">Гарантия</a></li>
           <li><a class="link header-contacts" href="contacts.html">Контакты</a></li>
         </ul>
       </section>
 
-      <aside class="section-links">
+      <div class="section-links">
         <ul class="links-item">
           <li><a class="item" href="inner.html">Виртуальная реальность</a></li>
           <li><a class="item item-current" href="inner.html">Моноподы для селфи</a></li>
@@ -45,17 +44,19 @@
           <li><a class="item" href="inner.html">Умные-часы</a></li>
           <li><a class="item" href="inner.html">Квадрокоптеры</a></li>
         </ul>
-      </aside>
+      </div>
     </nav>
   </header>
 
 
   <main>
 
-    <section class="main-footer">
+    <section class="main-info">
       <div class="about">
         <h2>О нас</h2>
         <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.
+        </p>
+        <p>
           Мы можем доставить ваш товар в самые отдаленные точки России!
           Device работает со многими транспортными компаниями:
         </p>
@@ -67,7 +68,7 @@
         <b>подробнее о нас</b>
       </div>
 
-      <div class="description">
+      <div class="descrip">
         <h2>Контакты</h2>
         <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете
           проверить работоспособность покупки. Всякое бывает.
@@ -81,40 +82,34 @@
   </main>
 
   <footer class="footer">
-
-    <img src="img/logo-device.svg" class="logo-footer" width="164" height="47">
-
-
-
-    <p class="info address">г. Москва, ул. Строителей 15</p>
-
-    <nav class="footer-main">
-      <ul class="footer-info">
-        <li><a class="link footer-deliwery" href="delivery.html">Доставка</a></li>
-        <li><a class="link footer-warrantiy" href="warrantiy.html">Гарантия</a></li>
-        <li><a class="link footer-contacts" href="contacts.html">Контакты</a></li>
-      </ul>
-
-
-      <ul class="footer-social">
-        <li><a class="social-button" href="#"></a></li>
-        <li><a class="social-button" href="#"></a></li>
-        <li><a class="social-button" href="#"></a></li>
-      </ul>
-
-      <ul class="footer-user">
-        <li><a class="user footer-login" href="login-link">Войти</a></li>
-        <li><a class="user footer-compare" href="compare.html">Сравнить</a></li>
-        <li><a class="user footer-cart" href="cart.html">Корзина</a></li>
-      </ul>
-    </nav>
-
-    <p class="info tel">Тел.: +7(495)495-95-95</p>
-
-
-    <div class="htmlacademy" <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
-      <img src="img/logo-html.svg" alt="htmllogo" width="27" height="35"></a>
-    </div>
+    <section class="footer-content">
+      <img src="img/logo-device.svg" class="logo-footer" width="164" height="47">
+      <div class="footer-user">
+        <a class="user footer-login" href="login-link">Войти</a>
+        <a class="user footer-compare" href="compare.html">Сравнить</a>
+        <a class="user footer-cart" href="cart.html">Корзина</a>
+      </div>
+      <section class="footer-info">
+        <p>г. Москва, ул. Строителей 15</p>
+        <ul>
+          <li><a class="link footer-delivery" href="delivery.html">Доставка</a></li>
+          <li><a class="link footer-warranty" href="warrantiy.html">Гарантия</a></li>
+          <li><a class="link footer-contacts" href="contacts.html">Контакты</a></li>
+        </ul>
+        <p>Тел.: +7(495)495-95-95</p>
+      </section>
+      <section class="footer-bottom">
+        <ul class="footer-social">
+          <li><a class="social-button" href="#"></a></li>
+          <li><a class="social-button" href="#"></a></li>
+          <li><a class="social-button" href="#"></a></li>
+        </ul>
+        <div class="htmlacademy">
+          <a class="footer-logo" href="https://htmlacademy.ru/intensive/htmlcss">
+            <img src="img/logo-html.svg" alt="htmllogo" width="27" height="35"></a>
+        </div>
+      </section>
+    </section>
   </footer>
 
 
