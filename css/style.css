@@ -314,26 +314,19 @@ span {
 .footer-login::before {
   width: 13px;
   height: 12px;
-  background: url("../img/user.svg") 50% 50% no-repeat;
-  }
-
-.userf::before {
-    display: inline-block;
-    content: "";
-    margin-right: 10px;
-    background: fill=yellow;
+  background: url("../img/user-footer.svg") 50% 50% no-repeat;
   }
 
 .footer-compare::before {
   width: 10px;
   height: 10px;
-  background: url("../img/compare.svg") 50% 50% no-repeat;
+  background: url("../img/compare-footer.svg") 50% 50% no-repeat;
 }
 
 .footer-cart::before {
   width: 12px;
   height: 12px;
-  background: url("../img/cart.svg") 50% 50% no-repeat;
+  background: url("../img/cart-footer.svg") 50% 50% no-repeat;
   }
 
 .footer-info {
