@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Malik Arabov](https://up.htmlacademy.ru/htmlcss/24/user/604509).
-* Наставник: [Евгений Старшинов](https://htmlacademy.ru/profile/id100874).
+* Наставник: [Анна Лисененкова]
 
 ---
 
