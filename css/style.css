@@ -27,7 +27,7 @@
     font-family: "OpenSans";
     src: url("../fonts/opensanslight.woff2") format("woff2"),
         url("../fonts/opensanslight.woff") format("woff");
-    font-weight: lighter;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -87,15 +87,15 @@ a {
 }
 
 .header-login {
-  margin-left: 517px;
+  margin-left: 487px;
 }
 
 .header-compare {
-  margin-left: 200px;
+  margin-left: 217px;
 }
 
 .header-cart {
-  margin-left: 27px;
+  margin-left: 40px;
 }
 
 .user::before {
@@ -149,15 +149,15 @@ a {
 }
 
 .header-delivery {
-  margin-left: 376px;
+  margin-left: 347px;
 }
 
 .header-warranty {
-  margin-left: 37px;
+  margin-left: 50px;
 }
 
 .header-contacts {
-  margin-left: 95px;
+  margin-left: 111px;
 }
 
 
@@ -169,10 +169,14 @@ a {
   line-height: 36px;
 }
 
+.main {
+  width: auto;
+}
+
 .main-content {
   max-width: 1160px;
   margin: auto;
-  color: #000000
+  color: #000000;
 }
 
 .breadcrumbs {
@@ -204,19 +208,59 @@ span {
   text-align: right;
   line-height: 24px;
 }
-
-.main {
-  width: auto;
-}
-
-.main-info {
-  max-width: 1160px;
-  margin: auto;
+/*<--inner-/-index-->*/
+.main-content .index {
   font-family: "OpenSans",sans-serif;
   font-size: 15px;
   color: #464646;
   letter-spacing: 0;
   line-height: 30px;
+}
+
+.main-content .index h2 {
+  font-family: "Gilroy",sans-serif;
+  font-size: 47px;
+  color: #000000;
+  letter-spacing: 0.21px;
+  line-height: 48px;
+}
+
+.selfi-palka {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 65px;
+}
+
+.specification {
+  flex-direction: column;
+  }
+
+section .settings {
+
+  }
+
+.settings {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.settings h2 {
+  font-family: "OpenSans",sans-serif;
+font-size: 36px;
+color: #000000;
+letter-spacing: 0.36px;
+line-height: 48px;
+}
+
+.settings span {
+  font-family: "OpenSans",sans-serif;
+  font-size: 13px;
+  color: #464646;
+  letter-spacing: 0.13px;
+  line-height: 20px;
+}
+
+.main-info {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -233,14 +277,6 @@ span {
   flex-basis: auto;
   width: 560px;
   }
-
-.main-info h2 {
-  font-family: "Gilroy",sans-serif;
-  font-size: 47px;
-  color: #000000;
-  letter-spacing: 0.21px;
-  line-height: 48px;
-}
 
 .about p {
   margin-bottom: 35px;
@@ -265,7 +301,6 @@ span {
   color: #000000;
   letter-spacing: 3.5px;
   line-height: 24px;
-  background: url("../img/line.svg") 50% 50% no-repeat;
 }
 
 .link-info a:nth-child(2) {
@@ -286,6 +321,7 @@ span {
   color: #FFFFFF;
   background: #464646;
   width: auto;
+  height: 300px;
 }
 
 .footer-content {
