@@ -222,7 +222,7 @@ a {
   position: relative;
 }
 
-.index span {
+.index a {
   font-family: "Gilroy", sans-serif;
   font-size: 18px;
   font-weight: bold;
@@ -231,22 +231,21 @@ a {
   line-height: 24px;
 }
 
-.selfi-palka {
+.selfi {
   display: flex;
   justify-content: space-between;
   margin: 0 50px 50px 50px;
 }
 
 .specification {
-  flex-direction: column;
-  }
-
-.settings {
-  display: inline-block;
-  margin-right: 30px;
+  max-width: 510px;
 }
 
-.settings h2 {
+.settings {
+
+}
+
+.settings td {
   font-family: "OpenSans",sans-serif;
   font-size: 36px;
   color: #000000;
@@ -254,7 +253,7 @@ a {
   line-height: 48px;
 }
 
-.settings span {
+.settings th {
   font-family: "OpenSans",sans-serif;
   font-size: 13px;
   color: #464646;
@@ -283,11 +282,10 @@ a {
 
 .main-delivery .link-info {
   flex-direction: column;
-  align-items:
   max-width: 150px;
 }
 
-.link-info span:nth-child(2) {
+.main-deliveri .link-info a:nth-child(2) {
   margin: 30px 0;
 }
 
@@ -330,7 +328,7 @@ a {
   margin-bottom: 45px;
 }
 
-.link-info a:nth-child(2) {
+.main-info .link-info a:nth-child(2) {
   margin-left: 395px;
 }
 
